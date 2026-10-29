@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(.venv/Scripts/python.exe --version)",
+      "Bash(.venv/Scripts/python.exe -m pip install -q -r requirements.txt pytest)",
+      "Bash(.venv/Scripts/python.exe -m pip list)",
+      "Bash(.venv/Scripts/python.exe -m pytest -q)",
+      "Bash(.venv/Scripts/python.exe -m pytest -q -p no:warnings)",
+      "Bash(.venv/Scripts/python.exe -c ' *)",
+      "WebSearch"
+    ]
+  }
+}
